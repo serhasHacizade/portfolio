@@ -99,6 +99,23 @@ const projects = [
     live: "",
     github: "https://github.com/serhasHacizade/prisma",
   },
+  {
+    num: 6,
+    category: "frontend",
+    title: "Deezer Clone",
+    description:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim consectetur provident molestias saepe eaque!",
+    stack: [
+      { name: "Vue.js" },
+      { name: "Javascript" },
+      { name: "Vite" },
+      { name: "Tailwind.css" },
+      { name: "Pinia" },
+    ],
+    image: "/assets/assets/work/thumb6.png",
+    live: "",
+    github: "https://github.com/serhasHacizade/clone-projects/tree/main/deezer-clone",
+  },
 ];
 
 
@@ -154,6 +171,7 @@ const Work = () => {
             </div>
           </div>
           <div className="w-full xl:w-[50%]">
+              <p className="text-white">You can slide this picture right and left</p>
             <Swiper spaceBetween={30} slidesPerView={1} className="xl:h-[520px] mb-12" onSlideChange={handleChange}>
               {
                 projects.map((project, index) => {
