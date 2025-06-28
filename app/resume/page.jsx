@@ -1,12 +1,15 @@
 "use client";
 import React from "react";
-import { FaHtml5, FaCss3, FaJs, FaReact, FaVuejs } from "react-icons/fa";
+import { FaHtml5, FaCss3, FaJs, FaReact, FaVuejs, FaNodeJs } from "react-icons/fa";
 import {
   SiTailwindcss,
   SiNextdotjs,
   SiAngular,
   SiTypescript,
 } from "react-icons/si";
+import { BiLogoMongodb } from "react-icons/bi";
+
+
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
@@ -29,11 +32,11 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+90) 553 115 54 00",
+      fieldValue: "(+90) 531 026 10 88",
     },
     {
       fieldName: "Experience",
-      fieldValue: "2 years",
+      fieldValue: "2.5 years",
     },
     {
       fieldName: "Nationality",
@@ -148,6 +151,14 @@ const skills = {
     {
       icon: <SiAngular />,
       name: "angular",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "node.js",
+    },
+    {
+      icon: <BiLogoMongodb />,
+      name: "mongoDB",
     },
   ],
 };
